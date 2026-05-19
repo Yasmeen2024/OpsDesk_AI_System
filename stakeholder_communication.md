@@ -51,8 +51,8 @@ Structure: Operational Impact Headline -> Core Process Change -> Triage Instruct
 Tone: Urgently professional, process-driven.
 Constraints: Do not mention database schemas, Git repositories, or programming languages. Max 300 words.
 
-### Prompt 2: Engineering Lead (CTO)
-Plaintext
+### **Prompt 2: Engineering Lead (CTO)**
+
 Context: Act as a Principal Enterprise Architect. The OpsDesk project has implemented a bounded fix for a staging duplicate trigger bug.
 Audience: Engineering Lead / CTO.
 Objective: Write a technical brief justifying code readiness.
@@ -60,7 +60,7 @@ Structure: Root Cause Analysis -> Bounded Fix Architecture -> Transaction Testin
 Tone: Strictly analytical, technical, precise.
 Constraints: Focus on the interaction between state-write execution and the duplicate guard. Avoid business value generalizations.
 
-### Prompt 3: Customer Success VP
+### **Prompt 3: Customer Success VP**
 Context: Act as a Chief Operating Officer. OpsDesk has successfully mitigated internal service request blockages.
 Audience: Customer Success VP.
 Objective: Write a business-case proposal for broad platform scaling.
